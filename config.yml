@@ -1,4 +1,9 @@
 version: 1
+genesis:
+  app_state:
+    staking:
+      params:
+        unbonding_time: "240s"
 accounts:
 - name: alice
   coins:
